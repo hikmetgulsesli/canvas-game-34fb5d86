@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-11-12T21:54:24.941Z",
+  "screenCount": 1,
+  "screens": {
+    "15a8a8910f504f32a682007c004a9569": {
+      "screenId": "15a8a8910f504f32a682007c004a9569",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-1",
+            "flex",
+            "flex-col",
+            "min-h-screen",
+            "p-6",
+            "md:p-8",
+            "max-w-7xl",
+            "mx-auto",
+            "w-full"
+          ],
+          "childCount": 19
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start",
+          "classes": [
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "px-6",
+            "py-2.5",
+            "rounded-lg",
+            "bg-emerald-400",
+            "hover:bg-emerald-300",
+            "text-slate-950",
+            "font-semibold",
+            "text-sm",
+            "tracking-wide",
+            "transition",
+            "shadow-md",
+            "shadow-emerald-950/40",
+            "cursor-pointer",
+            "active:scale-95"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {},
+      "fonts": [],
+      "layoutHints": {
+        "gridCols": 1,
+        "flexDirection": "col",
+        "gap": "3"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Start",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [],
+      "title": "Play page - Canvas Game"
+    }
+  }
+}
